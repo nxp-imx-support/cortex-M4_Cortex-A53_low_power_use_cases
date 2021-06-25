@@ -1,0 +1,22 @@
+diff --git a/plat/imx/imx8m/gpc_common.c b/plat/imx/imx8m/gpc_common.c
+index a16d2a3f7..a6b6d5d74 100644
+--- a/plat/imx/imx8m/gpc_common.c
++++ b/plat/imx/imx8m/gpc_common.c
+@@ -268,6 +268,8 @@ void imx_set_sys_lpm(unsigned int last_core, bool retention)
+ 	/* mask M4 DSM trigger if M4 is NOT enabled */
+ 	if (!imx_is_m4_enabled())
+ 		mmio_setbits_32(IMX_GPC_BASE + LPCR_M4, BIT(31));
++        else
++                mmio_setbits_32(IMX_GPC_BASE + SLPCR, SLPCR_A53_FASTWUP_STOP_MODE);
+ 
+ 	/* config wakeup irqs' mask in gpc */
+ 	imx_set_sys_wakeup(last_core, retention);
+@@ -295,7 +297,7 @@ struct pll_override pll[MAX_PLL_NUM] = {
+ 	{.reg = 0x64, .override_mask = (1 << 10) | (1 << 8), },
+ 	{.reg = 0x74, .override_mask = (1 << 10) | (1 << 8), },
+ 	{.reg = 0x84, .override_mask = (1 << 10) | (1 << 8), },
+-	{.reg = 0x94, .override_mask = 0x5555500, },
++//	{.reg = 0x94, .override_mask = 0x5555500, },    //SYS_PLL1 is used by M4
+ 	{.reg = 0x104, .override_mask = 0x5555500, },
+ 	{.reg = 0x114, .override_mask = 0x500, },
+ };

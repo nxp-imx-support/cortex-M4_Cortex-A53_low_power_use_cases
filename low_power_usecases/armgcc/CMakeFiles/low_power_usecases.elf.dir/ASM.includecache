@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S
+

@@ -1,0 +1,37 @@
+Scanning dependencies of target low_power_usecases.elf
+[ 11%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/boards/evkmimx8mm/rtos_examples/low_power_usecases/pin_mux.c.obj
+[ 11%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/boards/evkmimx8mm/rtos_examples/low_power_usecases/board.c.obj
+[ 11%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/boards/evkmimx8mm/rtos_examples/low_power_usecases/low_power_usecases.c.obj
+[ 11%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/boards/evkmimx8mm/rtos_examples/low_power_usecases/clock_config.c.obj
+[ 14%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_common.c.obj
+[ 17%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+[ 20%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.obj
+[ 22%] Building ASM object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+[ 25%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/boards/evkmimx8mm/rtos_examples/low_power_usecases/empty_rsc_table.c.obj
+[ 28%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/timers.c.obj
+[ 31%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/queue.c.obj
+[ 34%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_gpio.c.obj
+[ 37%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/components/lists/fsl_component_generic_list.c.obj
+[ 40%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/components/uart/fsl_adapter_iuart.c.obj
+[ 42%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/event_groups.c.obj
+[ 45%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/components/serial_manager/fsl_component_serial_manager.c.obj
+[ 48%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+[ 51%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/tasks.c.obj
+[ 54%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_gpt.c.obj
+[ 60%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/croutine.c.obj
+[ 60%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+[ 62%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/stream_buffer.c.obj
+[ 65%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/components/serial_manager/fsl_component_serial_port_uart.c.obj
+[ 68%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/utilities/str/fsl_str.c.obj
+[ 71%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/list.c.obj
+[ 77%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_gpc.c.obj
+[ 85%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.obj
+[ 85%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+[ 85%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_i2c.c.obj
+[ 85%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/utilities/debug_console/fsl_debug_console.c.obj
+[ 88%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/utilities/fsl_assert.c.obj
+[ 91%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_i2c_freertos.c.obj
+[ 94%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+[ 97%] Building C object CMakeFiles/low_power_usecases.elf.dir/home/nxf46594/projects/845/repo/SDK_2.9.1_EVK-MIMX8MM/devices/MIMX8MM6/drivers/fsl_mu.c.obj
+[100%] Linking C executable debug/low_power_usecases.elf
+[100%] Built target low_power_usecases.elf
