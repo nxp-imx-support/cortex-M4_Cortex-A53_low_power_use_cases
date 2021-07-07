@@ -7,6 +7,10 @@ This application note presents the power measurements performed for following th
  - Cortex-A in Linux Suspend mode and Cortex-M periodically waking up to send a I2C frame.
  - Cortex-A in Linux Suspend mode and Cortex-M periodically waking up to perform a dummy load.
 
+## License
+ - License BSD-3-Clause: 0001-imx-imx8m-gpc-Dont-override-clocks-used-by-MCore.patch, low_power_usecases.
+ - License GPL-2.0: 0002-boot-dts-imx8mm-evk-rpmsg-Shared-memory-is-not-needed.patch
+
 ## Hardware and software setup
  - i.MX8MMini LPDDR4 EVK (8MMINILPD4-EVK)
  - BSP Linux 5.10.9_1.0.0 plus additional patches from this repository
