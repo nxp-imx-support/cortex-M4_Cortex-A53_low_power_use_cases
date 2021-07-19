@@ -9,7 +9,6 @@ It also provides the possibility of waking-up the Cortex-A.
 
 Toolchain supported
 ===================
-- IAR embedded Workbench  8.50.9
 - GCC ARM Embedded  9.3.1
 
 Hardware requirements
